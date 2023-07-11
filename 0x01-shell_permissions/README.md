@@ -1,1 +1,0 @@
-This file is based in a directory on the shell permissions project. The project consists of tasks that uses practical teaching to show students the various permission that can be changed or granted a user, owner or a group.
