@@ -1,1 +1,1 @@
-This project os about shell inniti, variables and shellexpansions
+This project is about shell innit, variables and shell expansions
