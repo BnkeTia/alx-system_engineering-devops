@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' $DECIMAL
+grep -n '' | grep -E '^([^:]*:)?([02468].*)?$' | cut -d ':' -f 2-
