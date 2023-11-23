@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# A bash script that display the content of the current directory with
+# filenames after the first dash
+for file in *; do
+	# Check if the file is not hidden
+	if [[ ! $file == .* && -f $file ]]; then
+		filename=$(echo "$file" | cut -d '-' -f 2-)
+		echo "$filename"
+	fi
+done
