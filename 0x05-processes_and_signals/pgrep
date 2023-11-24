@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+pid=($pgrep 7-highlander)
+echo "$pid"
