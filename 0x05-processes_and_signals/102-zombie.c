@@ -3,7 +3,10 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/wait.h>
-
+/**
+ * infinite_while - A function that creates an infinite while loop
+ * Return: void.
+ */
 int infinite_while(void)
 {
 	while (1)
@@ -12,7 +15,10 @@ int infinite_while(void)
 	}
 	return (0);
 }
-
+/**
+ * main - A function that prints the pid of zombie processes
+ * Return: 0 on success or 1 on failure.
+ */
 int main(void)
 {
 	pid_t child_pid;
