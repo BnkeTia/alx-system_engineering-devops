@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# A script that displays The PID aling with the names of the processes
+for pid in /proc/*/; do
+	pid=${pid%/}
+	cmd=$(cat "$pid/cmdline" 2>/dev/null | tr '\0' ' ')
+
+	# check if the command line contains "bash"
+	if [[ "$cmd" == *bash* ]]; then
+		process_name=$(awk -F':' '/Name/ {print $2}' "$pid/status")
+		echo "PID: ${pid##*/}, Process Name: $process_name"
+	fi
+done	
