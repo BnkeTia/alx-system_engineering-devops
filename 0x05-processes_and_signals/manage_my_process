@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# A bash script that manages the processes and carries out specified
+# functionalities
+start_process() {
+	echo "I am alive!" > /tmp/my_process &
+	echo "$!" > /var/run/my_process.pid
+	echo "manage_my_process started"
+}
+
+stop_process() {
+	kill "$(cat /var/run/my_process.pid)" && \
+	rm -f /var/run/my_process.pid && \
+	echo "manage_my_process stopped"
+}
+
+restart_process() {
+	stop_process
+	start_process
+	echo "manage_my_process restarted"
+}
+
+case "$1" in
+	"start")
+		start_process
+		;;
+	"stop")
+		stop_process
+		;;
+	"restart")
+		restart_process
+		;;
+	*)
+		echo "Usage: manage_my_process {start|stop|restart}"
+		;;
+esac
