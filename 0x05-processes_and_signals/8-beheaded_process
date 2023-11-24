@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# A bash script that kill a process named "7-highlander"
+# A bash script that kills a process named "7-highlander"
 pid=$(pgrep 7-highlander)
+# check if PID exists, and terminate the process using kill.
 if [[ -n $pid ]]; then
 	echo "Killing process $pid (7-highlander)"
 	kill "$pid"
+else
+	echo "Process 7-highlander not found
 fi
