@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script to handle signals
+# A bash script that handle signals SIGTERM, SIGNIT & SIGQUIT
 
 # Function to handle SIGTERM signal
 sigterm_handler() {
