@@ -29,5 +29,5 @@ echo "$$" > /var/run/myscript.pid
 # Display message indefinitely
 while true; do
 	echo "To infinity and beyond"
-	sleep 2
+	sleep 1
 done
