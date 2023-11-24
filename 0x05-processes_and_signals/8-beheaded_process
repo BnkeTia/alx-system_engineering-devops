@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# A bash script that stops the to infinity and beyond process without
-# using kill
-pkill -f "7-highlander"
+# A bash script desined to kill the 7-higlander process
+
+pid=$(pgrep -f "7-highlander")
+
+if [ -n "$pid" ]; then
+	kill "$pid"
+fi
