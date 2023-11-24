@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A bash script that displays the PID along with the names of the processes
-for pid in /proc/*/; do
+for pid in /proc/[0-9]*/; do
 	pid=${pid%/}
 	cmd=$(tr '\0' ' ' < "$pid/cmdline" 2>/dev/null)
 
