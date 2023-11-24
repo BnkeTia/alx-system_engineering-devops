@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # managing process script
-while true
-do
+while true; do
     echo "I am alive!" >> /tmp/my_process
     sleep 2
 done
