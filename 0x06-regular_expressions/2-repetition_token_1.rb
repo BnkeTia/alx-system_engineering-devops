@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-#regular expression that will match the following cases:
+# regular expression that will match the following cases:
 # htn
 # hbtn
 # hbbtn
