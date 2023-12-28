@@ -1,5 +1,5 @@
 # 0x09. Web infrastructure design
-### 'DevOps' SysAdmin' 'Web infrastructure'
+### 'DevOps' 'SysAdmin' 'Web infrastructure'
 
 ## Team project -
 * Single person team technically but a three person team virtually.
@@ -11,7 +11,7 @@
 * Load balancer [https://intranet.alxswe.com/concepts/46]
 * Server [https://intranet.alxswe.com/concepts/67]
 
-* Overview video ![](https://youtu.be/lQNEW76KdYg)
+![](https://youtu.be/lQNEW76KdYg)
 
 # Learning Objectives
 ## General
