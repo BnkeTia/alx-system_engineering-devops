@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that returns first 10 hot posts of a subreddit"""
+"""Script that returns top 10 hot posts of a subreddit"""
 import requests
 
 
