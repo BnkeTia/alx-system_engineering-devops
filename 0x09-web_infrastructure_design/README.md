@@ -1,5 +1,5 @@
 # 0x09. Web infrastructure design
-### 'DevOps' 'SysAdmin' 'Web infrastructure'
+### `DevOps` `SysAdmin` `Web infrastructure`
 
 ## Team project -
 * Single person team technically but a three person team virtually.
