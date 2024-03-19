@@ -1,7 +1,6 @@
 # 0x14. MySQL
 ### `DevOps` `SysAdmin` `MySQL`
 
-![KkrkDHT](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/3d4948a4-322c-4ec8-a829-bff37b2eb4e1)
 
 ## Resources
 **Read or watch**:
@@ -111,7 +110,7 @@ ubuntu@229-web-01:~$
 
 [4. Setup a Primary-Replica infrastructure using MySQL](./4-mysql_configuration_primary) [4. Setup a Primary-Replica infrastructure using MySQL](./4-mysql_configuration_replica)
 
-![09e83e914f0d6865ce320a47f2f14837a5b190b6](https://github.com/samuelselasi/alx-system_engineering-devops/assets/85158665/4efcbff8-09a9-454a-8c87-763bfd915f98)
+![09e83e914f0d6865ce320a47f2f14837a5b190b6](https://github.com/bnketia/alx-system_engineering-devops/assets/85158665/4efcbff8-09a9-454a-8c87-763bfd915f98)
 
 Having a replica member on for your MySQL database has `2` advantages:
 
